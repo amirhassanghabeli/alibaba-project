@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class=" flex justify-between px-20 py-2 text-slate-700  ">
+            <div class="flex items-center gap-11 ">
+                <img class="ml-16" src="images/alibaba.svg" alt="علی بابا">
+                <div class="flex gap-4 items-center">
+                    <span>بلیط</span>
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <span>اقامت</span>
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </div>
+
+                <span>تور</span>
+                <span>ویزا</span>
+
+                <div class="flex gap-4 items-center">
+                    <span>بیشتر</span>
+                    <i class="fa fa-angle-down  fa-lg" aria-hidden="true"></i>
+                </div>
+
+            </div class="align-middle">
+            <div class="flex items-center gap-11">
+                <div>
+                    <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+                    <span>مرکز پشتیبانی انلاین</span>
+                </div>
+                <div class="align-middle">
+                    <i class="fa fa-user-secret" aria-hidden="true"></i>
+                    <span>سفر های من</span>
+                </div>
+                <div class="align-middle">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <span>ورود ثبت نام</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img class="w-11/12 my-0 mx-auto relative" src="images/baner.webp" alt="تبلیغات">
+        <div class=" border  w-3/4 my-0 mx-auto  absolute right-48 top-60 bg-white rounded-lg  ">
+            <div class="border-b flex justify-center gap-24 py-5 rounded-xl text-slate-700">
+                <div class=" flex flex-col items-center text-blue-600 ">
+                    <i class="fa fa-plane fa-2x" aria-hidden="true"></i>
+                    <span>پرواز داخلی</span>
+                </div>
+                <div class=" flex flex-col items-center">
+                    <i class="fa fa-plane fa-2x" aria-hidden="true"></i>
+                    <span>پرواز خارجی</span>
+                </div>
+                <div class=" flex flex-col items-center">
+                    <i class="fa fa-subway fa-2x" aria-hidden="true"></i>
+                    <span>قطار</span>
+                </div>
+                <div class=" flex flex-col items-center">
+                    <i class="fa fa-bus fa-2x" aria-hidden="true"></i>
+                    <span>اتوبوس</span>
+                </div>
+                <div class=" flex flex-col items-center">
+                    <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                    <span>تور</span>
+                </div>
+                <div class=" flex flex-col items-center">
+                    <i class="fa fa-circle-o-notch fa-2x" aria-hidden="true"></i>
+                    <span>هتل</span>
+                </div>
+                <div class=" flex flex-col items-center">
+                    <i class="fa fa-circle-o-notch  fa-2x" aria-hidden="true"></i>
+                    <span>ویلا و اقامتگاه</span>
+                </div>
+            </div>
+            <div class="flex py-7 pr-6 gap-3 text-slate-500  ">
+                <div class="border rounded-2xl	px-3 py-1 ">
+                    <span> یک طرفه </span>
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="border rounded-2xl	px-3 py-1">
+                    <span>دربست نمیخواهم</span>
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="border rounded-2xl	px-3 py-1">
+                    <span>مسافرین عادی</span>
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="border rounded-2xl	px-3 py-1">
+                    <span>حمل خودرو نمیخواهم</span>
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="flex gap-2 justify-center pb-8 relative">
+                <div class="  border  rounded-xl  border-gray-300">
+                    <input class="w-56 pr-4 py-2" type="text" placeholder="مبدا (شهر)">
+                    <i class="text-gray-700  absolute fa fa-exchange right-60 bottom-11 " aria-hidden="true"></i>
+                    <input class=" border-r-2 w-56 pr-4" type="text" placeholder="مقصد (شهر)">
+                </div>
+                <div class=" border rounded-xl border-gray-300">
+                    <input class=" w-32 pr-4  py-2" type="text" placeholder=" تاریخ رفت">
+                    <input class="border-r-2 w-32 pr-4" type="text" placeholder=" تاریخ برگشت +">
+                </div>
+                <div class="  relative">
+                    <span class=" absolute text-xs bottom-9 left-28 text-gray-500 ">مسافران</span>
+                    <input class=" border rounded-xl w-44 pr-4 py-2 placeholder-gray-800 border-gray-300"
+                        type="text pr-4" placeholder=" 1مسافر">
+                </div>
+                <div>
+                    <input
+                        class=" w-44 text-center py-2 placeholder-gray-800 border rounded-xl bg-yellow-400 border-gray-300"
+                        type="text " placeholder=" جستجو">
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <h2 class="mr-48 pb-5 font-bold">سایر خدمات علی بابا</h2>
+        <div class="flex my-0 mx-auto w-3/4 justify-around border py-4 text-slate-500 rounded-md">
+            <div class="flex items-center gap-3 relative border-l w-1/4	justify-center">
+                <span
+                    class="absolute bottom-7 right-20 border rounded-xl px-2 bg-green-300 text-sm text-black">جدید</span>
+                <img src="images/icon.svg" alt="ایکون سفر">
+                <span>سفر کارت (سازمانی)</span>
+            </div>
+            <div class="flex items-center gap-3 border-l w-1/4 justify-center">
+                <img src="images/bime.svg" alt="ایکون بیمه">
+                <span>بیمه مسافرتی</span>
+            </div>
+            <div class="flex items-center gap-3 border-l w-1/4 justify-center">
+                <img src="images/viza.svg" alt="ایکون ویزا">
+                <span>ویزا مسافرتی</span>
+            </div>
+            <div class="flex items-center gap-3 w-1/4 justify-center">
+                <img src="images/toor.svg" alt="ایکون تور">
+                <span>تور گروهی</span>
+            </div>
+        </div>
+        <div class="flex justify-center gap-32 py-7 ">
+            <img class="w-2/6 rounded-lg" src="images/tabligh.jpg" alt="تبلیغ">
+            <img class="w-2/6 rounded-lg" src="images/tablighdo.png" alt="تبلیغ">
+        </div>
+        <div class="w-3/4 my-0 mx-auto border flex items-center   justify-around rounded-lg  ">
+            <div class="flex gap-14">
+                <img class="h-48 w-36 object-contain" src="images/qrcode-56155e39.png" alt="کیو ار کد">
+                <div class="flex flex-col gap-7  ">
+                    <h1 class="font- text-2xl">اپلیکیشن علی بابا</h1>
+                    <span>سریع‌تر و مطمئن‌تر به سفر بروید</span>
+                    <div>
+                        <a href="www.alibaba.com"> </i>مشاهده لینک های دانلود</a><i class="fa fa-angle-left"
+                            aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <i class=" text-gray-400 fa fa-apple" aria-hidden="true"></i>
+                        <i class="text-gray-400 fa fa-android" aria-hidden="true"></i>
+                        <span class="text-xs bg-slate-400">قابلیت نصب روی Android و iOS</span>
+                    </div>
+                </div>
+            </div>
+
+            <img class="w-1/4 pt-3" src="images/app-mobile@4x-e3e3b7dc.webp" alt="">
+        </div>
+        <h1 class="mr-48 py-6">پرسش های شما</h1>
+        <div class="w-3/4 my-0 mx-auto border rounded-lg flex flex-col gap-5 font-semibold text-slate-700">
+            <div class="flex border-b py-5 px-5 items-center justify-between ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>در راه آهن و هنگام سوار شدن به قطار چه مدارکی لازم است؟</span>
+                </div>
+                <div>
+                    <i class=" flex justify-end fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>مقدار بار مجاز در قطار چقدر است؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b  items-center  justify-between py-2 px-5">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>روال استرداد یا کنسلی بلیط قطار چگونه است؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>قیمت بلیط برای کودک و نوزاد چگونه است؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>چه زمانی باید در ایستگاه حضور داشته باشم؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5  ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>در یک کوپه دربست چند نفر همراه اضافه می‌توان برد؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>در صورت مفقودی بلیط قطار، چه باید کرد؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>در صورت مفقودی بلیط قطار، چه باید کرد؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>آیا این امکان وجود دارد که مسافر در پکیج قطار با هتل فدک درخواست اقامت بیشتر در هتل داشته
+                        باشد؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>آیا خانوم‌ها می‌توانند بلیط قطار را برای کوپه مخصوص بانوان بخرند؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="flex border-b  items-center justify-between py-2 px-5 ">
+                <div class="flex gap-3">
+                    <img src="images/Screenshot 2024-05-14 080408.png" alt="">
+                    <span>شرایط بیمه قطار چه گونه است؟</span>
+                </div>
+                <div>
+                    <i class="fa fa-angle-down  fa-2x" aria-hidden="true"></i>
+
+                </div>
+            </div>
+        </div>
+        <h1 class="mr-48 py-6">بلیط قطار</h1>
+        <p class="w-3/4 my-0 mx-auto text-slate-700">هر کسی که یک بار با قطار سفر کرده باشد می‌داند که قطار امن است و
+            همین موضوع آن را به یکی از مناسب‌ترین وسائل نقلیه برای سفر به مقاصد دور و نزدیک تبدیل کرده. در سفر با قطار
+            می‌توانید بدون نگرانی از نوسانات شرایط جوی، کمبود سوخت، تصادفات و... لحظات آرامی را سپری کنید. در کنار این
+            موارد، موسیقی ریتمیک حرکت قطار روی ریل به خودی خود موجب آرامش سرنشینان می‌شود؛ حتی بعضی از مسافران ادعا
+            کرده‌اند که این ریتم منظم موجب می‌شود تا خواب راحت‌تری در قطار داشته باشند.علاوه بر امنیت، سفر با قطار
+            مزایای دیگری هم دارد. قیمت ...</p>
+        <div class="w-3/4 flex my-0 mx-auto py-16 gap-2">
+            <div class="border">
+                <img class="w-full rounded-t-2xl" src="images/menyek.png" alt="عکس مرد">
+                <span class="">خرید اینترنتی بلیط قطار مزایای زیادی دارد، از جمله: مقایسه‌ قیمت بلیط قطارهای مختلف، انتخاب دقیق
+                    ساعت حرکت قطار، انتخاب از بین قطارهای متنوع شرکت‌های ریلی، پرداخت سریع و آسان با کارت شتابی، استرداد
+                    کاملا آنلاین بلیط قطار، خرید مطمئن بلیط مقاصد پرسفر، رزرو آسان بلیط قطار در فصل‌های شلوغ و مطلع شدن
+                    از پیش‌فروش قطارها از طریق ایمیل. شما به راحتی می‌توانید با مراجعه به www.alibaba.ir بلیط قطار خود
+                    را به آسانی و با چند کلیک ساده خریداری کنید.</span>
+            </div>
+            <div class="border">
+                <img class=" rounded-t-2xl " src="images/mendo.png" alt="عکس مرد">
+                <span>در گذشته، استرداد بلیط قطار از دغدغه‌های اصلی مسافران بود. حتی مسافرانی که بلیط را آنلاین
+                    می‌خریدند، برای استرداد آن مجبور بودند به صورت حضوری به دفاتر فروش مراجعه کنند. علی‌بابا با فراهم
+                    کردن زیرساخت‌های لازم، خدمت استرداد آنلاین بلیط قطار را به مسافران ارائه می‌کند و شما با مراجعه به
+                    حساب کاربری خود در علی‌بابا با چند کلیک ساده می‌توانید بلیط را به صورت کاملا آنلاین استرداد کنید و
+                    مبلغ آن را (پس از کسر جریمه‌ کنسلی) در حساب بانکی‌تان دریافت کنید.</span>
+            </div>
+            <div class="border" >
+                <img class=" rounded-t-2xl" src="images/mense.png" alt="عکس مرد">
+                <span>یکی از دغدغه‌های مسافران قطار، امکان رزرو بلیط برای سفرهای خانوادگی و گروهی است. مشتریان علی‌بابا
+                    می‌توانند تا سقف 6 بلیط برای 6 نفر را در یک سفارش و با یک بار پرداخت خریداری کنند. همچنین در صورتی
+                    که قصد خرید بلیط برای تعداد مسافران بیشتری را داشته باشید و می‌خواهید صندلی‌هایتان در کنار هم باشد،
+                    کافیست با پشتیبانی علی‌بابا تماس بگیرید. در کنار همه این‌ها، استرداد هر تعداد بلیط در علی‌بابا به
+                    راحتی و در کمترین زمان ممکن انجام می‌شود.</span>
+            </div>
+        </div>
+        <h1 class="mr-48 py-6">قیمت بلیط قطار</h1>
+        <p class="w-3/4 my-0 mx-auto text-slate-700">رزرو بلیط قطار، سفر با قطار را راحت‌تر از همیشه کرده است. برای خرید اینترنتی بلیط قطار کافی است وارد
+            وب‌سایت
+            علی‌بابا شوید، سپس با وارد کردن نام شهر مبدا و مقصد و تاریخ رفت و برگشت می‌توانید تمام قطارهای شرکت‌های ریلی
+            در مسیر مورد نظرتان را مشاهده کنید. بسته به ساعت حرکت، امکانات قطار و بودجه می‌توانید مناسب‌ترین بلیط را
+            انتخاب کنید و با نهایی کردن رزرو بلیط قطار و پرداخت آن، بلیط خود را به صورت آنلاین دریافت کنید.
+            کوپه دربست در قطار</p>
+        <div class=" flex my-0 mx-auto py-16 gap-2">
+            <div class="">
+                <img class=" rounded-t-2xl" src="images/1.png" alt="">
+                <span>یکی از تفاوت‌های قطار با سایر وسائل نقلیه عمومی کوپه‌های دربست آن است. شما می‌توانید کوپه‌های
+                    چهارنفره و شش‌نفره را دربست کنید تا به همراه خانواده یا دوستان خود سفر راحت‌تری را تجربه کنید. دربست
+                    کردن کوپه اصلا کار سختی نیست و در طی فرایند خرید اینترنتی بلیط از سایت علی‌بابا می‌توانید به آسانی
+                    بلیط قطار خود را به صورت دربست خریداری کنید. اگر گروهی سفر می‌کنید و یا اگر کودکان کم‌سن‌وسال همراه
+                    شما هستند، کوپه‌های دربست را به شما پیشنهاد می‌کنیم.</span>
+            </div>
+            <div class="w-1/4">
+                <img class=" rounded-t-2xl" src="images/2.png" alt="">
+                <!-- <span>سفر با قطار ارزان است و همین موضوع باعث می‌شود تا مورد توجه دانشجویان باشند. به طور معمول
+                    دانشجویانی که در شهرهای غیربومی تحصیل می‌کنند به صورت پرتکرار سفر می‌کنند و ماهانه حداقل یک بار به
+                    شهر خودشان باز می‌گردند که قطار یکی از انتخاب‌های اصلی آنهاست؛ چرا که هم قیمت به‌صرفه‌ای دارد و هم
+                    سفر راحتی را تجربه خواهند کرد.</span> -->
+            </div>
+            <div>
+                <img class="w-72 rounded-t-2xl" src="images/4.png" alt="">
+                <span>علی‌بابا با ارائه ظرفیت کامل بر روی مسیرهای پرتردد مثل تهران – مشهد – تهران، اصفهان – تهران –
+                    اصفهان، یزد – تهران – یزد، تهران – شیراز – تهران و... امکان خرید سریع و آسان بلیط قطار، به ویژه در
+                    ایام اوج سفر مثل نوروز و تابستان را فراهم می‌کند. شما با مراجعه به سامانه علی‌بابا یا نصب اپلیکیشن
+                    اندروید یا ios علی‌بابا می‌توانید با خیال راحت بلیط سفرهای ریلی خود را از علی‌بابا خریداری
+                    کنید</span>
+            </div>
+            <div>
+                <img class="w-72 rounded-t-2xl" src="images/3.png" alt="">
+                <span>تهران - مشهد پرترددترین مسیر ریلی کشور است که قطارهای تمام شرکت‌های ریلی در این مسیر مسافران را
+                    جا‌به‌جا می‌کنند. حضور بارگاه امام رضا در مشهد، برگزاری سمینارها و همایش‌های مختلف و اجرای پروژه‌های
+                    تجاری، این مسیر را به یکی از پررونق‌ترین مسیرهای ریلی تبدیل کرده است. در سفرهای زیارتی، که اغلب
+                    گروهی و به صورت خانوادگی انجام می‌شود، استقبال از قطار بسیار زیاد است. قیمت بلیط قطار تهران - مشهد
+                    بسته به نوع قطار و شرکت ریلی متفاوت است و تقریبا برای تمام سلیقه‌ها از قطارهای لوکس گرفته تا قطارهای
+                    اتوبوسی، بلیط متناسب با نوع سفر را می‌توان پیدا کرد.</span>
+            </div>
+        </div>
+        <h1>شرکت‌های ریلی در ایران</h1>
+        <p>به صورت کلی شرکت رجا و شرکت‌های زیرمجموعه سفیر و شرکت فدک، تامین‌کنندگان قطارهای خطوط ریلی ایران هستند و
+            علی‌بابا بخش اعظمی از بلیط این شرکت‌ها را از طریق سامانه علی‌بابا به متقاضیان عرضه می‌کند. شرکت‌های
+            زیرمجموعه سفیر عبارتند از: راه آهن شرقی بنیاد (بن ریل)، جوپار، ریل سیر کوثر، ریل ترابر سبا، مهتاب سیر جم
+            (مهتاب)، قطارهای مسافری نور (نورالرضا)، رعد و پارس لاریم.</p>
+
+
+
+
+
+
+
+    </main>
+</body>
+
+</html>
